@@ -36,11 +36,12 @@ The model is trained on the **UCI Adult Dataset** and deployed as an interactive
 
 ```
 employee-salary-predictor/
-├── app.py                    # Streamlit frontend
-├── salary_prediction_pipeline.pkl  # Trained XGBoost pipeline
-├── label_encoder.pkl         # Label encoder for target values
-├── requirements.txt          # Dependencies
-└── README.md                 # Project documentation
+├── README.md # Project overview and documentation
+├── app.py # Streamlit web app for prediction
+├── emp_salary_prediction.ipynb # Jupyter notebook for model training
+├── label_encoder.pkl # Saved label encoder
+├── salary_prediction_pipeline.pkl # Trained XGBoost model pipeline
+├── requirements.txt # List of dependencies
 ```
 
 ---
