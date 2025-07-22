@@ -40,8 +40,8 @@ employee-salary-predictor/
 ├── app.py # Streamlit web app for prediction
 ├── emp_salary_prediction.ipynb # Jupyter notebook for model training
 ├── label_encoder.pkl # Saved label encoder
-├── salary_prediction_pipeline.pkl # Trained XGBoost model pipeline
 ├── requirements.txt # List of dependencies
+├── salary_prediction_pipeline.pkl # Trained XGBoost model pipeline
 ```
 
 ---
